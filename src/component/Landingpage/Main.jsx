@@ -13,8 +13,9 @@ function Main() {
       {/* <section className='container align-middle'>
         <h1 className='text-start'>THINK VISUAL</h1>
       </section> */}
-      <Container className='mt-5'>
+      <Container className='mt-5 '>
         <Row>
+          {/* 1st section */}
           <Col>
             <div className='mt-5' >
               <h3>Welcome to an immersive world of interactive learning!</h3>
@@ -26,13 +27,15 @@ function Main() {
           </Col>
         </Row>
       </Container>
-      <Container>
+
+      {/* 2nd section */}
+      <Container className='mt-5 d-inline-flex'>
         <Row>
-          <Col>
+          <Col className=''>
             <ShapeExample />
           </Col>
-          <Col>
-            <div>
+          <Col >
+            <div className='d-flex'>
               <h5>What features our platform offers?</h5>
             </div>
             <Text2 />
