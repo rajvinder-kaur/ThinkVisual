@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import ShapeExample from '../Image';
 import Col from 'react-bootstrap/Col';
 import Text2 from '../Text-2/Text2';
+import Footer from '../Footer'
 function Main() {
   return (
     <div className='w-100 h-100'>
@@ -31,13 +32,14 @@ function Main() {
             <ShapeExample />
           </Col>
           <Col>
-            <Text2 />
-            <Text2 />
-            <Text2 />
+            <div>
+              <h5>What features our platform offers?</h5>
+            </div>
             <Text2 />
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div >
   )
 }
